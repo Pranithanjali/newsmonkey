@@ -1,0 +1,171 @@
+/* Fullscreen overlay */
+.auth-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* dim background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* ensures it comes above your news cards */
+}
+
+/* White box in center */
+.auth-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 10000; /* keep above modal bg */
+}
+
+/* Title */
+.auth-box h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Inputs */
+.auth-box input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Continue/Login/Signup button */
+.auth-box button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.auth-box button:hover {
+  background: #333;
+}
+
+/* Links */
+.auth-box p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-box span {
+  color: blue;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.auth-box span:hover {
+  text-decoration: underline;
+}
+
+/* Google login link */
+.google-link {
+  margin-top: 1rem;
+  color: #555;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.google-link:hover {
+  color: black;
+}
+
+.interests-section {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.interests-section p {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.interests-section label {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.interests-section input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #000; /* makes checkbox color black */
+}
+
+
+
+/*.auth-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.auth-box p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.auth-box span {
+  color: blue;
+  cursor: pointer;
+}
+
+.google-link {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
+*/
