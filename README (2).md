@@ -38,7 +38,7 @@ NewsMonkey is a **React.js web application** with **Firebase Authentication** th
 
 ## Demo Video (Optional)
 - A short video of the app running locally:  
-[Watch Demo Video](./demo/newsmonkey-demo.mp4)
+[Watch Demo Video](./demo/NewsMonkey-demo.mp4)
 
 ---
 
